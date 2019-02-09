@@ -1,0 +1,75 @@
+form {
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+form h2, .class-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+}
+
+.subjects-container h2 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.subjects-container {
+    max-width: 600px;
+    margin: 0 auto 100px;
+    padding-bottom: 50px;
+}
+
+.class-container {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 50px;
+}
+
+
+.class-container h3 {
+    position: relative;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.class-container h3:after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    background: #000;
+    width: 50%;
+    height: 1px;
+    left: 0;
+}
+
+.class-box {
+    margin-top: 30px;
+}
+
+.block {
+    display: block!important;
+}
+
+.topic {
+    display: none;
+}
+
+.topic option, .timeslot option {
+    display: none;
+}
+
+.topic option.active, .timeslot option.active {
+    display: inline;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
